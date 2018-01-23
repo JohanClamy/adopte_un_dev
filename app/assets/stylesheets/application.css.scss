@@ -43,6 +43,14 @@ a.navbar-brand.logo span{
     font-weight:normal;
     color:grey;
 }
+.navbar-default .navbar-brand:hover{
+    color:white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color:grey;
+    opacity:0.85;
+}
 .home-callout{
     padding-top:100px;
 }
