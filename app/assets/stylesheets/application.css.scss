@@ -37,9 +37,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 a.navbar-brand.logo{
     color:white;
     font-weight:bold;
-  /*  text-transform:uppercase;*/
 }
+
 a.navbar-brand.logo span{
     font-weight:normal;
     color:grey;
+}
+.home-callout{
+    padding-top:100px;
 }
