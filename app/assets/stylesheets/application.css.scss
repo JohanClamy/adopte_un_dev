@@ -16,10 +16,14 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
- 
+
+
+// Typographie
 h1,h2,h3{
   font-family:'Open sans', sans-serif;
 }
+
+// Background gradient
 body{
 background: rgba(255,255,255,1);
 background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
@@ -30,6 +34,8 @@ background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1
 background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
 }
+
+// Style menu
 .navbar{
     background-color:black;
     ;
@@ -51,6 +57,8 @@ a.navbar-brand.logo span{
     background-color:grey;
     opacity:0.85;
 }
+
+// home page styles
 .home-callout{
     padding-top:100px;
 }
