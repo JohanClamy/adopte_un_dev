@@ -56,13 +56,16 @@ a.navbar-brand.logo span{
 }
 
 .navbar-default .navbar-nav > li > a:hover{
-    background-color:grey;
-    opacity:0.85;
+    color:grey;
+  
 }
 
 // home page styles
 .home-callout{
     padding-top:100px;
+}
+.alert-notice{
+    display:none;
 }
 //Form
 .well{
