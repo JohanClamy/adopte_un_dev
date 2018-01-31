@@ -26,7 +26,7 @@ h1,h2,h3{
 }
 
 // Background gradient
-body{
+.home-callout{
 background: rgba(255,255,255,1);
 background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
 background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
@@ -62,7 +62,9 @@ a.navbar-brand.logo span{
 
 // home page styles
 .home-callout{
-    padding-top:100px;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .alert-notice{
     display:none;

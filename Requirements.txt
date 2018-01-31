@@ -1,0 +1,8 @@
+Memberships
+* Les utilisateurs doivent voir un lien pour l'inscription gratuite sur la page
+d'acceuil
+*Les utilisateurs doivent voir un lien pour l'inscription payante sur la page
+d'acceuil également
+*Le lien pour l'inscription gratuite doit pointer vers le formulaire initiale du
+gem devise
+*Le lien pour l'inscription payant doit pointer vers le formulaire personaliser
