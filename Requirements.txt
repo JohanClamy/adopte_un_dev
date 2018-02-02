@@ -6,3 +6,17 @@ d'acceuil également
 *Le lien pour l'inscription gratuite doit pointer vers le formulaire initiale du
 gem devise
 *Le lien pour l'inscription payant doit pointer vers le formulaire personaliser
+
+Integration Stripe
+*les utilisateurs doivent avoir un token stripe personaliser dans la table
+utilisateurs
+* 1-Javascript doit mettre en pause la submition du formulaire,quand l'utilisateurs
+le remplis,et envoyé les information de la carte à Stripe.Stripe nous retourneras
+un token de cette même carte.
+*2- Javascript doit envoyer les données du formulaire et le token à rails
+et rails doit valider les données (expiration,mot de passe ect..) et attribuer
+le type de souscription dans ce cas gratuit ou payant
+*Derniere étape,une fois valider rails doit renvoyé les info (emails,plan id) et
+et le token au server stripe et stripe créera une souscription et nous 
+renverra un token personaliser.Maintenant rails doit sauvegarder le token et les
+informations dans notre base de donnée
