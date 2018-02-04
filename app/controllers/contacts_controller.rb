@@ -32,7 +32,7 @@ class ContactsController < ApplicationController
           flash[:danger] = @contact.errors.full_messages.join(", ")
           redirect_to new_contact_path
         end
-     end
+    end
      
      private
         # Pour collecter les données venant du formulaire,nous devons utiliser
