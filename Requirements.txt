@@ -20,3 +20,13 @@ le type de souscription dans ce cas gratuit ou payant
 et le token au server stripe et stripe créera une souscription et nous 
 renverra un token personaliser.Maintenant rails doit sauvegarder le token et les
 informations dans notre base de donnée
+
+User Profiles
+* Each user should have one profile
+*User should see link to new profile form upon signing up
+*User should be able to create and view their user profile
+*User profile should have a profile picture
+*User should be able to view all user profiles
+
+
+
